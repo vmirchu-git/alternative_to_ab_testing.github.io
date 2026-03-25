@@ -3,10 +3,7 @@
 ---
 
 ## 🇬🇧 English version
-
-**Timeline:** Q3 2025  
-**Role:** Middle–Senior Data Analyst  
-**Tech stack:** Python • pandas • NumPy • Statsmodels • Seaborn • Matplotlib • SQL (ClickHouse/PostgreSQL) • JupyterLab • Git  
+**Tech stack:** Python • pandas • NumPy • Seaborn • Matplotlib • SQL  
 
 ### Context  
 Product teams often relied on crude comparisons of 2 weeks before vs. 2 weeks after a release to measure the impact of updates (new scenarios, classifier improvements). Traditional A/B testing was unavailable or inefficient, leading to potential bias from trends, seasonality, or external factors. Decisions were often made “by eye,” and changes negatively affecting metrics could go unnoticed.
@@ -80,10 +77,7 @@ Develop a methodology and analytical tool to:
 ---
 
 ## 🇷🇺 Русский вариант
-
-**Сроки:** III квартал 2025  
-**Роль:** Middle–Senior Data Analyst  
-**Технологии:** Python • pandas • NumPy • Statsmodels • Seaborn • Matplotlib • SQL (ClickHouse/PostgreSQL) • JupyterLab • Git  
+**Технологии:** Python • pandas • NumPy • Seaborn • Matplotlib • SQL
 
 ### Контекст  
 Продуктовые команды часто использовали простое сравнение 2 недель до и после релиза для оценки влияния изменений (новые сценарии, улучшения классификатора). Классическое A/B-тестирование было недоступно или неэффективно, что приводило к возможной ошибке из-за трендов, сезонности или внешних факторов. Решения принимались «на глаз», а изменения, ухудшающие метрики, могли остаться незамеченными.
@@ -110,7 +104,7 @@ Develop a methodology and analytical tool to:
 - Автоматизация воркфлоу и отчетности.
 
 **Методы и алгоритмы**  
-- OLS линейная регрессия (Statsmodels) для трендов до/после.  
+- Линейная регрессия для трендов до/после.  
 - Скользящее среднее для сглаживания шумов.  
 - Поддержка нескольких метрик (`auto`, `precision`, `weighted_auto`).  
 
